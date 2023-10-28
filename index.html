@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saas Landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- container -->
+    <div class="container">
+        <header class="primary_header">
+            <!-- logo -->
+
+            <div class="logo">
+                <a href="index.html">
+                    <img class="logo_img" src="/images/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="toogle_btn" aria-hidden="true" aria-controls="navigation">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- navigation -->
+            <nav class="flex">
+                <ul class="nav-links" id="navigation" aria-expanded="false">
+                    <li><a href="#features">
+                            Features
+                        </a></li>
+                    <li><a href="#aboutus">
+                            About Us
+                        </a></li>
+                    <li><a href="#blog">
+                            Blog
+                        </a></li>
+                    <li><a href="#login" class="btn btn-light">
+                            <i class="fa fa-user"></i>
+                            Log in
+                        </a></li>
+
+
+                </ul>
+
+            </nav>
+        </header>
+    </div>
+    <!-- hero -->
+    <main class="main">
+        <section class="section hero">
+            <div class="container">
+                <div class="hero_wrapper">
+                    <div class="hero_content">
+                        <h1 class="hero_heading text-lg">
+                            A powerful solution to grow your startup. Fast!
+                        </h1>
+                        <p class="hero_sub-heading text-sm">
+                            Organize, collaborate, and track progress seamlessly with our one-stop-shop startup
+                            growth tool.
+                        </p>
+                        <div class="btn-wrapper">
+                            <button class="btn btn-accent">
+                                Get Started
+                            </button>
+                            <button class="btn btn-light">
+                                <i class="fa fa-laptop"></i>
+                                Book a demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video section -->
+
+        <section class="section video bg-dark">
+            <div class="container-sm">
+                <div class="video_wrapper">
+
+                    <h2 class="text-center text-lg">
+                        See how it works and get started
+                        in less than 2 minutes
+                    </h2>
+                    <div class="video_w">
+                        <a href="" class="video_link">
+                            <img class="video_img" src="/images/video-preview.png" alt="video">
+                        </a>
+
+                    </div>
+                    <div class="text-center video_btn-wapper">
+
+                        <button class="btn btn-accent">Get started</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section testimonails bg-dark">
+            <div class="container">
+                <div class="testimonials_wrapper">
+                    <h2 class="text-lg testimonails_heading">
+                        Don't just take our word for it, see the success stories from businesses just like yours.
+                    </h2>
+                    <div class="testimonials_content_wrapper">
+
+                        <div class="testi bg-light">
+                            <h3 class="text-xsm">
+                                “Our business has seen a significant increase in productivity since we started using
+                                the Growth app.”
+                            </h3>
+                            <div class="from">
+
+                                <p class="test_name text-bold text-xsm">Katherine Smith</p>
+                                <p class="test_city text-xsm">Capodopera </p>
+                            </div>
+                        </div>
+                        <div class="testi bg-light">
+                            <h3 class="text-xsm">
+                                “As a small business owner, it's important to have a tool that can help me keep
+                                track of everything. The Growth app has been a lifesaver for me, allowing me to
+                                manage my contacts, schedule appointments, and track progress all in one place..”
+                            </h3>
+                            <div class="from">
+
+                                <p class="test_name text-bold text-xsm">Jonathan Lee</p>
+                                <p class="test_city text-xsm">Red Bolt</p>
+                            </div>
+                        </div>
+                        <div class="testi bg-light">
+                            <h3 class="text-xsm">
+                                “The dashboards and reporting feature has provided valuable insights into our
+                                performance and helped us make data-driven decisions. It's a game changer for us.”
+                            </h3>
+                            <div class="from">
+
+                                <p class="test_name text-bold text-xsm">David Wilson</p>
+                                <p class="test_city text-xsm">Slide</p>
+                            </div>
+                        </div>
+                        <div class="testi bg-light">
+                            <h3 class="text-xsm">
+                                “The dashboards and reporting feature has provided valuable insights into our
+                                performance and helped us make data-driven decisions. It's a game changer for us.”
+                            </h3>
+                            <div class="from">
+
+                                <p class="test_name text-bold text-xsm">David Wilson</p>
+                                <p class="test_city text-xsm">Slide</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- pricing section -->
+
+        <section class="section bg-light">
+            <div class="container">
+                <div class="pricing_heading_wrapper">
+                    <h3 class="price_heading_main text-center text-lg">Pricing</h3>
+                    <p class="pricing_sub_heading .text-xsm text-center">
+                        Start free and scale while you grow. No hidden fees. Unlimited users for free.
+                    </p>
+                </div>
+                <div class="pricing_wrapper">
+                    <div class="card bg-light">
+                        <div class="pricing_title text-md text-bold ">Simple</div>
+                        <p class=" card_sub_heading text-xsm">Keep track of your contacts, gain
+                            valuable insights,
+                            analyse
+                            live data and performance metrics.</p>
+                        <div class="card_price">
+                            <span style="font-size: 2.25rem;" class="text-bold">Free</span> <span
+                                class="hint text-xsm">* No credit
+                                card
+                                required </span>
+                        </div>
+                        <div class="pricing_card_details text-xsm">
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>
+                                Real-time monitoring
+                            </div>
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>Track key performance indicators
+                            </div>
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>Schedule appointments
+                            </div>
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>Organize, delegate and keep track of tasks
+                            </div>
+                        </div>
+                        <button class="btn btn-block btn-accent">Get Started</button>
+                    </div>
+                    <div class="card bg-dark">
+                        <div class="pricing_title text-md text-bold">Premium</div>
+                        <p class="card_sub_heading  text-xsm">Keep track of your contacts, gain valuable
+                            insights,
+                            analyse live data and performance metrics.</p>
+                        <div class="card_price">
+                            <span style="font-size: 2.25rem;">$49 </span> <span class="hint text-xsm text-bold">/Month
+                            </span>
+                        </div>
+                        <div class="pricing_card_details text-xsm">
+                            <div class="card-details text-sm">Everything from the free plan plus:</div>
+                            <div class=" card-details">
+                                <i class="fa fa-check"></i>Real-time monitoring
+                            </div>
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>Track key performance indicators
+                            </div>
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>Schedule appointments
+                            </div>
+                            <div class="card-details">
+                                <i class="fa fa-check"></i>Organize, delegate and keep track of tasks
+                            </div>
+                        </div>
+                        <button class="btn btn-block btn-accent">Get Started</button>
+                    </div>
+                </div>
+                <div class="pricing_details_wrapper">
+                    <p class="in_usd text-sm text-center ">All prices are in USD and charged per month with
+                        applicable taxes added at checkout.</p>
+                    <a class="View_features text-bold text-center" href=" index.html">View features <i
+                            class="fa fa-arrow-down"></i> </a>
+                </div>
+            </div>
+
+        </section>
+        <section class="section faq bg-light">
+            <div class="container-sm">
+                <div class="faq_top_wrapper">
+                    <h3 class="text-center text-bold text-md">Frequently Asked Questions</h3>
+                    <ul class="faq_menu text-center">
+                        <li class="active btn btn-accent text-bold">All</li>
+                        <li class="btn btn-light text-center">Getting Started</li>
+                        <li class="btn btn-light text-center">Pricing</li>
+                    </ul>
+                </div>
+                <div class="faq_wrapper">
+                    <div class="faq_group">
+                        <div class="faq_header">
+                            <h4 class="faq_header_content text-sm">How does the contact management
+                                feature help me keep track of clients and partners?</h4>
+                            <i class="fa fa_plust fa-minus"></i>
+                        </div>
+                        <div class="faq_body open">
+                            <p class="faq_body_content">Keep track of your contacts, gain valuable
+                                insights, analyse
+                                live data and performance metrics.</p>
+                        </div>
+                    </div>
+                    <div class="faq_group">
+                        <div class="faq_header">
+                            <h4 class="faq_header_content text-sm">Can I customize the dashboards and reporting
+                                feature to display the metrics that are most important to my business?</h4>
+                            <i class="fa fa_plust fa-plus"></i>
+                        </div>
+                        <div class="faq_body">
+                            <p class="faq_body_content">Keep track of your contacts, gain valuable
+                                insights, analyse
+                                live data and performance metrics.</p>
+                        </div>
+                    </div>
+                    <div class="faq_group">
+                        <div class="faq_header">
+                            <h4 class="faq_header_content text-sm">How does the task management feature help me
+                                delegate tasks to my team and track progress?</h4>
+                            <i class="fa fa_plust fa-plus"></i>
+                        </div>
+                        <div class="faq_body ">
+                            <p class="faq_body_content">Keep track of your contacts, gain valuable
+                                insights, analyse
+                                live data and performance metrics.</p>
+                        </div>
+                    </div>
+                    <div class="faq_group">
+                        <div class="faq_header">
+                            <h4 class="faq_header_content text-sm">Can I collaborate with my team in real-time using
+                                all tools?</h4>
+                            <i class="fa fa_plust fa-plus"></i>
+                        </div>
+                        <div class="faq_body ">
+                            <p class="faq_body_content">Keep track of your contacts, gain valuable
+                                insights, analyse
+                                live data and performance metrics.</p>
+                        </div>
+                    </div>
+                    <div class="faq_group">
+                        <div class="faq_header">
+                            <h4 class="faq_header_content text-sm">Is the app available on all devices?</h4>
+                            <i class="fa fa_plust fa-plus"></i>
+                        </div>
+                        <div class="faq_body ">
+                            <p class="faq_body_content">Keep track of your contacts, gain valuable
+                                insights, analyse
+                                live data and performance metrics.</p>
+                        </div>
+                    </div>
+                    <div class="faq_group">
+                        <div class="faq_header">
+                            <h4 class="faq_header_content text-sm">How does the app help me stay compliant when
+                                working with freelancers and contractors?</h4>
+                            <i class="fa fa_plust fa-plus"></i>
+                        </div>
+                        <div class="faq_body">
+                            <p class="faq_body_content">Keep track of your contacts, gain valuable
+                                insights, analyse
+                                live data and performance metrics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer class="footer_section bg-dark">
+        <div class="container">
+            <div class="footer_logo">
+                <img src="/images/logo-white.png" alt="footer_logo">
+            </div>
+            <div class="footer_wrapper">
+                <div class="footer_newslatter_wrapper bg-light">
+                    <h4 class="text-sm newsletter_heading">
+                        Subscribe to newsletter
+                    </h4>
+                    <p class="newsletter_sub-heading">
+                        Subscribe now to receive tips on how to take your business to the next level.
+                    </p>
+                    <div class="subscribe_to_newslatter">
+                        <input type="email" class="input text-xsm " id="email" name="email"
+                            placeholder="enter your email" />
+                        <button class="btn btn-accent">Subscribe</button>
+                    </div>
+
+
+                </div>
+                <div class="footer_links">
+                    <div class="footer_links_wrapper">
+                        <div class="company-links links">
+                            <h4 class="company text-sm">
+                                Company
+                            </h4>
+                            <ul class="link_list">
+                                <li><a href="#" class="text-xsm">About</a></li>
+                                <li><a href="# " class="text-xsm">Our Process</a></li>
+                                <li><a href="#" class="text-xsm">Join our team</a></li>
+                            </ul>
+                        </div>
+                        <div class=" links resources-links">
+                            <h4 class="resources text-sm">
+                                resource
+                            </h4>
+                            <ul class="link_list">
+                                <li><a href="#" class="text-xsm">News</a></li>
+                                <li><a href="# " class="text-xsm">Research </a></li>
+                                <li><a href="#" class="text-xsm">Recent projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-links links">
+                            <h4 class="text-sm">
+                                Contact
+                            </h4>
+                            <ul class="link_list">
+                                <li><a href="#" class="text-xsm">hello@growthapp.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_social-links">
+                <a href="$" class="footer_social_link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="footer_social_link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footer_terms-conditions">
+                <p class="footer_terms text-xsm">© 2023 Growth. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
